@@ -15,7 +15,7 @@ logger.info("Started logging process Successfully")
 class IoTApplication(QtWidgets.QApplication):
     def __init__(self):
         super().__init__()
-        with open("style.qss", "r") as f:
+        with open("styles/style.qss", "r") as f:
             _style = f.read()
             self.setStyleSheet(_style)
 
