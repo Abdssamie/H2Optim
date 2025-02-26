@@ -1,0 +1,46 @@
+/*QLabel {*/
+/*    background-color: #FFFFFF;*/
+/*    qproperty-alignment: AlignCenter;*/
+/*}*/
+
+/*QPushButton {*/
+/*    background-color: #134564;*/
+/*    padding: 20px;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*QWidget {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+QMenuBar {
+    background-color: #0a0d26;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+}
+QMenuBar::item {
+    padding: 5px 15px; /* Add padding around menu items */
+    background-color: transparent;
+    border-right: 1px solid lightgray;
+}
+
+QMenuBar::item:selected { /* Styles the menu item when it's selected (hovered or open) */
+    background-color: lightblue;
+    color: black;
+}
+
+QMenu {
+    border: 1px solid black;
+}
+QMenu::item {
+    padding: 4px 20px;
+    background-color: #0a0d26;
+    color: white;
+}
+
+QMenu::item:selected {
+    background-color: lightblue;
+    color: black;
+}
