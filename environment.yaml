@@ -1,0 +1,10 @@
+name: test-env  # The name of your Conda environment
+channels:
+  - conda-forge  #  Adds the conda-forge channel (highly recommended)
+dependencies:
+  - python>=3.12   #  Specifies the Python version (you should choose a specific version)
+  - anaconda     # (Optional) Installs the standard Anaconda distribution packages
+  - pip          #  Installs pip *within* the Conda environment
+  - pip:         #  This section specifies packages to be installed by pip
+    - -r file:requirements.txt  #  Installs packages from your requirements.txt file
+    - _r file:dev-requirements.txt

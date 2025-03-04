@@ -1,0 +1,15 @@
+QMenuBar::item {
+    padding: 5px 22px; /* Add padding around menu items */
+    background-color: #1C242C;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+QMenuBar::item:selected { /* Styles the menu item when it's selected (hovered or open) */
+    background-color: #2D3A45;
+    color: white;
+}
+
+QMenu {
+
+}
