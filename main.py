@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 logger.info("Started logging process Successfully")
 
 
-class IoTApplication(QApplication):
+class H2Optim(QApplication):
     def __init__(self):
         super().__init__()
 
@@ -37,5 +37,5 @@ class IoTApplication(QApplication):
 
 
 if __name__ == "__main__":
-    app = IoTApplication()
+    app = H2Optim()
     sys.exit(app.exec())

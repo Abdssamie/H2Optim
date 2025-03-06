@@ -13,7 +13,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QMouseEvent
 # from PySide6.QtCharts import QChart, QChartView
-from views.Pages.Dashboard.SampleCharts.chart import (ScatterChartWidget,
+from views.Pages.Dashboard  .SampleCharts.chart import (ScatterChartWidget,
                                                       HistogramWidget,
                                                       AreaChartWidget,
                                                       PieChartWidget,
