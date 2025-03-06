@@ -33,6 +33,9 @@ Makefile*
 *.qm
 *.prl
 
+# Docs are currently ignored
+docs
+
 # Qt unit tests
 target_wrapper.*
 
